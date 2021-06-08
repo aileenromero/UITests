@@ -15,9 +15,20 @@
 		755615BF266F764F00950E66 /* ApplicationScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615BA266F764F00950E66 /* ApplicationScheme.swift */; };
 		755615C0266F764F00950E66 /* ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615BB266F764F00950E66 /* ModelMapper.swift */; };
 		755615C1266F764F00950E66 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615BC266F764F00950E66 /* Styles.swift */; };
+		755615D7266F780600950E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615D6266F780600950E66 /* ViewController.swift */; };
+		755615DC266F787300950E66 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615DB266F787300950E66 /* AuthServices.swift */; };
+		755615E1266F789400950E66 /* BaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615E0266F789400950E66 /* BaseServices.swift */; };
+		755615E7266F78E600950E66 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615E6266F78E600950E66 /* User.swift */; };
+		755615EC266F7A1600950E66 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615EB266F7A1600950E66 /* APIError.swift */; };
+		755615F1266F7A3900950E66 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615F0266F7A3900950E66 /* ErrorResponse.swift */; };
+		755615F7266F7B2200950E66 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615F6266F7B2200950E66 /* SignInViewModel.swift */; };
+		75561604266F7B9500950E66 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75561603266F7B9500950E66 /* UserPreferences.swift */; };
+		75561685266F96CF00950E66 /* UITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75561684266F96CF00950E66 /* UITestBase.swift */; };
+		7556168E266F971600950E66 /* DefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7556168D266F971600950E66 /* DefaultRouter.swift */; };
+		75561696266F990B00950E66 /* AuthUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75561695266F990B00950E66 /* AuthUITest.swift */; };
+		7556169B266FA91900950E66 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7556169A266FA91900950E66 /* ForgotPasswordViewController.swift */; };
 		756F9822266F712F00C62200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F9821266F712F00C62200 /* AppDelegate.swift */; };
 		756F9824266F712F00C62200 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F9823266F712F00C62200 /* SceneDelegate.swift */; };
-		756F9826266F712F00C62200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F9825266F712F00C62200 /* ViewController.swift */; };
 		756F9829266F712F00C62200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756F9827266F712F00C62200 /* Main.storyboard */; };
 		756F982B266F713000C62200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756F982A266F713000C62200 /* Assets.xcassets */; };
 		756F982E266F713000C62200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756F982C266F713000C62200 /* LaunchScreen.storyboard */; };
@@ -76,10 +87,21 @@
 		755615BA266F764F00950E66 /* ApplicationScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationScheme.swift; path = "../../../../ios-app-boilerplate-master/App/App/Resources/Utilities/ApplicationScheme.swift"; sourceTree = "<group>"; };
 		755615BB266F764F00950E66 /* ModelMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelMapper.swift; path = "../../../../ios-app-boilerplate-master/App/App/Resources/Utilities/ModelMapper.swift"; sourceTree = "<group>"; };
 		755615BC266F764F00950E66 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Styles.swift; path = "../../../../ios-app-boilerplate-master/App/App/Resources/Utilities/Styles.swift"; sourceTree = "<group>"; };
+		755615D6266F780600950E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		755615DB266F787300950E66 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
+		755615E0266F789400950E66 /* BaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServices.swift; sourceTree = "<group>"; };
+		755615E6266F78E600950E66 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		755615EB266F7A1600950E66 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		755615F0266F7A3900950E66 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		755615F6266F7B2200950E66 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		75561603266F7B9500950E66 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		75561684266F96CF00950E66 /* UITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestBase.swift; sourceTree = "<group>"; };
+		7556168D266F971600950E66 /* DefaultRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRouter.swift; sourceTree = "<group>"; };
+		75561695266F990B00950E66 /* AuthUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUITest.swift; sourceTree = "<group>"; };
+		7556169A266FA91900950E66 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		756F981E266F712F00C62200 /* uitests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uitests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		756F9821266F712F00C62200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		756F9823266F712F00C62200 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		756F9825266F712F00C62200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		756F9828266F712F00C62200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		756F982A266F713000C62200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		756F982D266F713000C62200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -165,8 +187,42 @@
 				755615BB266F764F00950E66 /* ModelMapper.swift */,
 				755615B8266F764F00950E66 /* OSLogCrashlytics.swift */,
 				755615BC266F764F00950E66 /* Styles.swift */,
+				755615EB266F7A1600950E66 /* APIError.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		755615E5266F78DE00950E66 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				755615E6266F78E600950E66 /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		755615F5266F7B1600950E66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				755615F6266F7B2200950E66 /* SignInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		75561683266F87E900950E66 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				75561684266F96CF00950E66 /* UITestBase.swift */,
+				75561695266F990B00950E66 /* AuthUITest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		7556168C266F970C00950E66 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7556168D266F971600950E66 /* DefaultRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		756F9815266F712F00C62200 = {
@@ -194,17 +250,17 @@
 		756F9820266F712F00C62200 /* uitests */ = {
 			isa = PBXGroup;
 			children = (
-				756F9880266F71FD00C62200 /* Views */,
+				756F9821266F712F00C62200 /* AppDelegate.swift */,
+				756F9823266F712F00C62200 /* SceneDelegate.swift */,
 				756F987F266F71F100C62200 /* View Controllers */,
-				756F987E266F71EB00C62200 /* Resources */,
+				756F9875266F71CA00C62200 /* Constants */,
+				755615F5266F7B1600950E66 /* ViewModel */,
+				756F9880266F71FD00C62200 /* Views */,
 				756F987D266F71E400C62200 /* Protocols */,
-				756F987C266F71DE00C62200 /* Other Controllers */,
 				756F987B266F71D900C62200 /* Models */,
 				756F987A266F71D400C62200 /* Model Controllers */,
 				756F9876266F71CF00C62200 /* Extensions */,
-				756F9875266F71CA00C62200 /* Constants */,
-				756F9821266F712F00C62200 /* AppDelegate.swift */,
-				756F9823266F712F00C62200 /* SceneDelegate.swift */,
+				756F987E266F71EB00C62200 /* Resources */,
 			);
 			path = uitests;
 			sourceTree = "<group>";
@@ -221,6 +277,8 @@
 		756F9842266F713000C62200 /* uitestsUITests */ = {
 			isa = PBXGroup;
 			children = (
+				7556168C266F970C00950E66 /* Router */,
+				75561683266F87E900950E66 /* Tests */,
 				756F9843266F713000C62200 /* uitestsUITests.swift */,
 				756F9845266F713000C62200 /* Info.plist */,
 			);
@@ -258,7 +316,10 @@
 		756F987A266F71D400C62200 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				756F987C266F71DE00C62200 /* Other Controllers */,
 				756F9892266F725D00C62200 /* Router */,
+				755615DB266F787300950E66 /* AuthServices.swift */,
+				755615E0266F789400950E66 /* BaseServices.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -266,6 +327,8 @@
 		756F987B266F71D900C62200 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				755615E5266F78DE00950E66 /* User */,
+				755615F0266F7A3900950E66 /* ErrorResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,6 +336,7 @@
 		756F987C266F71DE00C62200 /* Other Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				75561603266F7B9500950E66 /* UserPreferences.swift */,
 			);
 			path = "Other Controllers";
 			sourceTree = "<group>";
@@ -298,7 +362,8 @@
 		756F987F266F71F100C62200 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				756F9825266F712F00C62200 /* ViewController.swift */,
+				755615D6266F780600950E66 /* ViewController.swift */,
+				7556169A266FA91900950E66 /* ForgotPasswordViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -596,31 +661,39 @@
 				755615BF266F764F00950E66 /* ApplicationScheme.swift in Sources */,
 				756F9888266F721100C62200 /* DesignableSegmentedControl.swift in Sources */,
 				756F98B3266F728800C62200 /* Constants.swift in Sources */,
+				755615E7266F78E600950E66 /* User.swift in Sources */,
 				756F98A3266F727E00C62200 /* String+Helpers.swift in Sources */,
+				755615E1266F789400950E66 /* BaseServices.swift in Sources */,
+				7556169B266FA91900950E66 /* ForgotPasswordViewController.swift in Sources */,
+				755615F1266F7A3900950E66 /* ErrorResponse.swift in Sources */,
 				756F98A9266F727E00C62200 /* Int+Helpers.swift in Sources */,
 				756F98AD266F727E00C62200 /* UIImage+Helpers.swift in Sources */,
-				756F9826266F712F00C62200 /* ViewController.swift in Sources */,
 				756F9894266F726D00C62200 /* AuthRouter.swift in Sources */,
 				756F9889266F721100C62200 /* DesignableTextField.swift in Sources */,
 				756F98A6266F727E00C62200 /* UITableViewCell+Helpers.swift in Sources */,
+				75561604266F7B9500950E66 /* UserPreferences.swift in Sources */,
 				756F98B4266F728800C62200 /* Server.swift in Sources */,
 				756F98A8266F727E00C62200 /* UIView+Helpers.swift in Sources */,
 				755615BD266F764F00950E66 /* OSLogCrashlytics.swift in Sources */,
 				755615C1266F764F00950E66 /* Styles.swift in Sources */,
 				755615C0266F764F00950E66 /* ModelMapper.swift in Sources */,
+				755615DC266F787300950E66 /* AuthServices.swift in Sources */,
 				756F988C266F721100C62200 /* DesignableButton.swift in Sources */,
 				756F98AC266F727E00C62200 /* Date+Helpers.swift in Sources */,
 				756F988A266F721100C62200 /* DesginableTextView.swift in Sources */,
 				756F988B266F721100C62200 /* DesignableView.swift in Sources */,
 				756F9822266F712F00C62200 /* AppDelegate.swift in Sources */,
+				755615D7266F780600950E66 /* ViewController.swift in Sources */,
 				756F988D266F721100C62200 /* DesignableImageView.swift in Sources */,
 				755615BE266F764F00950E66 /* Console.swift in Sources */,
 				756F98AA266F727E00C62200 /* UIColor+Helpers.swift in Sources */,
 				756F98AB266F727E00C62200 /* UIFont+Helpers.swift in Sources */,
+				755615F7266F7B2200950E66 /* SignInViewModel.swift in Sources */,
 				756F98A4266F727E00C62200 /* DateFormatter+Helpers.swift in Sources */,
 				756F98A5266F727E00C62200 /* UITableView+Helpers.swift in Sources */,
 				756F98A7266F727E00C62200 /* UIViewController+Helpers.swift in Sources */,
 				756F9824266F712F00C62200 /* SceneDelegate.swift in Sources */,
+				755615EC266F7A1600950E66 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,7 +709,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75561685266F96CF00950E66 /* UITestBase.swift in Sources */,
+				7556168E266F971600950E66 /* DefaultRouter.swift in Sources */,
 				756F9844266F713000C62200 /* uitestsUITests.swift in Sources */,
+				75561696266F990B00950E66 /* AuthUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

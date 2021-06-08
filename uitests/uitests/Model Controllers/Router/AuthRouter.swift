@@ -12,7 +12,7 @@ import KeychainSwift
 
 enum AuthRouter: URLRequestConvertible {
     
-    case login(email: String?, password: String?)
+    case login(username: String?, password: String?)
     
     private var baseURLString: String {
         return Server.getBaseURL().rawValue
@@ -20,7 +20,7 @@ enum AuthRouter: URLRequestConvertible {
     
     private var method: HTTPMethod {
         switch self {
-        case .login: return .get
+        case .login: return .post
         }
     }
     
@@ -44,8 +44,8 @@ enum AuthRouter: URLRequestConvertible {
         
         switch self {
         case .login(let params):
-            if let email = params.email, let password = params.password {
-                let credentialData = "\(email):\(password)".data(using: String.Encoding.utf8)!
+            if let username = params.username, let password = params.password {
+                let credentialData = "\(username):\(password)".data(using: String.Encoding.utf8)!
                 let base64Credentials = credentialData.base64EncodedString(options: [])
                 urlRequest.setValue("Basic \(base64Credentials)", forHTTPHeaderField: "Authorization")
             } else if let base64Credentials = (KeychainSwift().get(UserDefaults.Keys.base64Credentials.rawValue)) {

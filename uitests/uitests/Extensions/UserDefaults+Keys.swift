@@ -9,8 +9,11 @@ import Foundation
 
 extension UserDefaults {
     enum Keys: String {
+        case userId
         case base64Credentials
         case username
         case password
+        case firstName
+        case lastName
     }
 }
