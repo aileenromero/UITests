@@ -10,11 +10,6 @@
 		72950E574484D58C7BDEBFE3 /* Pods_uitests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED346AAB79FF3D4F3D98C01F /* Pods_uitests.framework */; };
 		75561579266F73C200950E66 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75561578266F73C200950E66 /* Alamofire.framework */; };
 		755615B3266F75BD00950E66 /* UserDefaults+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615B2266F75BD00950E66 /* UserDefaults+Keys.swift */; };
-		755615BD266F764F00950E66 /* OSLogCrashlytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615B8266F764F00950E66 /* OSLogCrashlytics.swift */; };
-		755615BE266F764F00950E66 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615B9266F764F00950E66 /* Console.swift */; };
-		755615BF266F764F00950E66 /* ApplicationScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615BA266F764F00950E66 /* ApplicationScheme.swift */; };
-		755615C0266F764F00950E66 /* ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615BB266F764F00950E66 /* ModelMapper.swift */; };
-		755615C1266F764F00950E66 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615BC266F764F00950E66 /* Styles.swift */; };
 		755615D7266F780600950E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615D6266F780600950E66 /* ViewController.swift */; };
 		755615DC266F787300950E66 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615DB266F787300950E66 /* AuthServices.swift */; };
 		755615E1266F789400950E66 /* BaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755615E0266F789400950E66 /* BaseServices.swift */; };
@@ -54,6 +49,11 @@
 		756F98AD266F727E00C62200 /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F98A2266F727E00C62200 /* UIImage+Helpers.swift */; };
 		756F98B3266F728800C62200 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F98B1266F728800C62200 /* Constants.swift */; };
 		756F98B4266F728800C62200 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F98B2266F728800C62200 /* Server.swift */; };
+		759ECCF0266FBFC80002D32B /* OSLogCrashlytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECCEB266FBFC70002D32B /* OSLogCrashlytics.swift */; };
+		759ECCF1266FBFC80002D32B /* ApplicationScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECCEC266FBFC70002D32B /* ApplicationScheme.swift */; };
+		759ECCF2266FBFC80002D32B /* ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECCED266FBFC80002D32B /* ModelMapper.swift */; };
+		759ECCF3266FBFC80002D32B /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECCEE266FBFC80002D32B /* Console.swift */; };
+		759ECCF4266FBFC80002D32B /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECCEF266FBFC80002D32B /* Styles.swift */; };
 		DAAC5C2238D97F28EF5C7E3D /* Pods_uitestsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1605BA9F6FA3F2E36A8DB5 /* Pods_uitestsTests.framework */; };
 		DB8C7869B25DFE00F426B9A8 /* Pods_uitests_uitestsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B059C1E4A370F1C844FF1127 /* Pods_uitests_uitestsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -82,11 +82,6 @@
 		4EB122A9BD03C78351E41127 /* Pods-uitests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uitests.release.xcconfig"; path = "Target Support Files/Pods-uitests/Pods-uitests.release.xcconfig"; sourceTree = "<group>"; };
 		75561578266F73C200950E66 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		755615B2266F75BD00950E66 /* UserDefaults+Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Keys.swift"; sourceTree = "<group>"; };
-		755615B8266F764F00950E66 /* OSLogCrashlytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSLogCrashlytics.swift; path = "../../../../ios-app-boilerplate-master/App/App/Resources/Utilities/OSLogCrashlytics.swift"; sourceTree = "<group>"; };
-		755615B9266F764F00950E66 /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Console.swift; path = "../../../../ios-app-boilerplate-master/App/App/Resources/Utilities/Console.swift"; sourceTree = "<group>"; };
-		755615BA266F764F00950E66 /* ApplicationScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationScheme.swift; path = "../../../../ios-app-boilerplate-master/App/App/Resources/Utilities/ApplicationScheme.swift"; sourceTree = "<group>"; };
-		755615BB266F764F00950E66 /* ModelMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelMapper.swift; path = "../../../../ios-app-boilerplate-master/App/App/Resources/Utilities/ModelMapper.swift"; sourceTree = "<group>"; };
-		755615BC266F764F00950E66 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Styles.swift; path = "../../../../ios-app-boilerplate-master/App/App/Resources/Utilities/Styles.swift"; sourceTree = "<group>"; };
 		755615D6266F780600950E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		755615DB266F787300950E66 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
 		755615E0266F789400950E66 /* BaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServices.swift; sourceTree = "<group>"; };
@@ -132,6 +127,11 @@
 		756F98A2266F727E00C62200 /* UIImage+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
 		756F98B1266F728800C62200 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		756F98B2266F728800C62200 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		759ECCEB266FBFC70002D32B /* OSLogCrashlytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSLogCrashlytics.swift; sourceTree = "<group>"; };
+		759ECCEC266FBFC70002D32B /* ApplicationScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationScheme.swift; sourceTree = "<group>"; };
+		759ECCED266FBFC80002D32B /* ModelMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelMapper.swift; sourceTree = "<group>"; };
+		759ECCEE266FBFC80002D32B /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
+		759ECCEF266FBFC80002D32B /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		A888F11309A906791AF2C1A9 /* Pods-uitestsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uitestsTests.debug.xcconfig"; path = "Target Support Files/Pods-uitestsTests/Pods-uitestsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B059C1E4A370F1C844FF1127 /* Pods_uitests_uitestsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uitests_uitestsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED346AAB79FF3D4F3D98C01F /* Pods_uitests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uitests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,11 +182,11 @@
 		755615B7266F764800950E66 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				755615BA266F764F00950E66 /* ApplicationScheme.swift */,
-				755615B9266F764F00950E66 /* Console.swift */,
-				755615BB266F764F00950E66 /* ModelMapper.swift */,
-				755615B8266F764F00950E66 /* OSLogCrashlytics.swift */,
-				755615BC266F764F00950E66 /* Styles.swift */,
+				759ECCEE266FBFC80002D32B /* Console.swift */,
+				759ECCEC266FBFC70002D32B /* ApplicationScheme.swift */,
+				759ECCED266FBFC80002D32B /* ModelMapper.swift */,
+				759ECCEB266FBFC70002D32B /* OSLogCrashlytics.swift */,
+				759ECCEF266FBFC80002D32B /* Styles.swift */,
 				755615EB266F7A1600950E66 /* APIError.swift */,
 			);
 			path = Utilities;
@@ -256,7 +256,6 @@
 				756F9875266F71CA00C62200 /* Constants */,
 				755615F5266F7B1600950E66 /* ViewModel */,
 				756F9880266F71FD00C62200 /* Views */,
-				756F987D266F71E400C62200 /* Protocols */,
 				756F987B266F71D900C62200 /* Models */,
 				756F987A266F71D400C62200 /* Model Controllers */,
 				756F9876266F71CF00C62200 /* Extensions */,
@@ -339,13 +338,6 @@
 				75561603266F7B9500950E66 /* UserPreferences.swift */,
 			);
 			path = "Other Controllers";
-			sourceTree = "<group>";
-		};
-		756F987D266F71E400C62200 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		756F987E266F71EB00C62200 /* Resources */ = {
@@ -658,7 +650,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				755615B3266F75BD00950E66 /* UserDefaults+Keys.swift in Sources */,
-				755615BF266F764F00950E66 /* ApplicationScheme.swift in Sources */,
 				756F9888266F721100C62200 /* DesignableSegmentedControl.swift in Sources */,
 				756F98B3266F728800C62200 /* Constants.swift in Sources */,
 				755615E7266F78E600950E66 /* User.swift in Sources */,
@@ -667,16 +658,17 @@
 				7556169B266FA91900950E66 /* ForgotPasswordViewController.swift in Sources */,
 				755615F1266F7A3900950E66 /* ErrorResponse.swift in Sources */,
 				756F98A9266F727E00C62200 /* Int+Helpers.swift in Sources */,
+				759ECCF2266FBFC80002D32B /* ModelMapper.swift in Sources */,
+				759ECCF1266FBFC80002D32B /* ApplicationScheme.swift in Sources */,
 				756F98AD266F727E00C62200 /* UIImage+Helpers.swift in Sources */,
 				756F9894266F726D00C62200 /* AuthRouter.swift in Sources */,
 				756F9889266F721100C62200 /* DesignableTextField.swift in Sources */,
+				759ECCF4266FBFC80002D32B /* Styles.swift in Sources */,
 				756F98A6266F727E00C62200 /* UITableViewCell+Helpers.swift in Sources */,
 				75561604266F7B9500950E66 /* UserPreferences.swift in Sources */,
 				756F98B4266F728800C62200 /* Server.swift in Sources */,
 				756F98A8266F727E00C62200 /* UIView+Helpers.swift in Sources */,
-				755615BD266F764F00950E66 /* OSLogCrashlytics.swift in Sources */,
-				755615C1266F764F00950E66 /* Styles.swift in Sources */,
-				755615C0266F764F00950E66 /* ModelMapper.swift in Sources */,
+				759ECCF0266FBFC80002D32B /* OSLogCrashlytics.swift in Sources */,
 				755615DC266F787300950E66 /* AuthServices.swift in Sources */,
 				756F988C266F721100C62200 /* DesignableButton.swift in Sources */,
 				756F98AC266F727E00C62200 /* Date+Helpers.swift in Sources */,
@@ -685,11 +677,11 @@
 				756F9822266F712F00C62200 /* AppDelegate.swift in Sources */,
 				755615D7266F780600950E66 /* ViewController.swift in Sources */,
 				756F988D266F721100C62200 /* DesignableImageView.swift in Sources */,
-				755615BE266F764F00950E66 /* Console.swift in Sources */,
 				756F98AA266F727E00C62200 /* UIColor+Helpers.swift in Sources */,
 				756F98AB266F727E00C62200 /* UIFont+Helpers.swift in Sources */,
 				755615F7266F7B2200950E66 /* SignInViewModel.swift in Sources */,
 				756F98A4266F727E00C62200 /* DateFormatter+Helpers.swift in Sources */,
+				759ECCF3266FBFC80002D32B /* Console.swift in Sources */,
 				756F98A5266F727E00C62200 /* UITableView+Helpers.swift in Sources */,
 				756F98A7266F727E00C62200 /* UIViewController+Helpers.swift in Sources */,
 				756F9824266F712F00C62200 /* SceneDelegate.swift in Sources */,
