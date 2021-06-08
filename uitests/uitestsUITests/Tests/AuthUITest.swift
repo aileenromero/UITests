@@ -26,12 +26,15 @@ class AuthUITest: UITestBase {
     func testInvalidCredentials() {
         router[DefaultRouter.loginPath] = DataResponse(statusCode: 401, statusMessage: "Invalid credentials")
         let usernameField = app.textFields["Username"]
+        XCTAssertTrue(usernameField.waitForExistence(timeout: 5))
         usernameField.tap()
         usernameField.typeText("aileenromero")
         let passwordField = app.secureTextFields["Password"]
+        XCTAssertTrue(passwordField.waitForExistence(timeout: 5))
         passwordField.tap()
         passwordField.typeText("12345")
         let signInButton = app.buttons["Login"]
+        XCTAssertTrue(signInButton.waitForExistence(timeout: 5))
         signInButton.tap()
         sleep(5)
         XCTAssert(app.alerts.element.staticTexts["The username or password you entered is incorrect."].exists)
@@ -39,12 +42,15 @@ class AuthUITest: UITestBase {
 
     func testLogin() {
         let usernameField = app.textFields["Username"]
+        XCTAssertTrue(usernameField.waitForExistence(timeout: 5))
         usernameField.tap()
         usernameField.typeText("aileenromero")
         let passwordField = app.secureTextFields["Password"]
+        XCTAssertTrue(passwordField.waitForExistence(timeout: 5))
         passwordField.tap()
         passwordField.typeText("romero")
         let signInButton = app.buttons["Login"]
+        XCTAssertTrue(signInButton.waitForExistence(timeout: 5))
         signInButton.tap()
         sleep(5)
     }
