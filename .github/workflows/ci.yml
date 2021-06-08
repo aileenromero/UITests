@@ -1,0 +1,43 @@
+name: CI
+
+# Other types of triggers exist -- lookup the docs to see! on new git pushes is most useful
+# on:
+#  milestone:
+#    type: [closed]
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: macOS-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: CocoaPod Install
+        run: pod install
+      #- name: Use this line to see how many versions of Xcode are installed on the CI
+      #  run: ls /Applications | grep Xcode
+
+      # Use this if your app requires a specific Xcode (or breaks on the latest one haha)
+      #- name: Force xcode 11 
+      #  run: sudo xcode-select -switch /Applications/Xcode_11.4.app
+      # - how to run build/test all in one line for starters
+#      - name: iPhone 11 Test
+#        run:  xcodebuild test -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.1'
+      
+#      - name: iPad Air Test
+#        run:  xcodebuild test -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'platform=iOS Simulator,name=iPad Air (3rd generation),OS=13.1'
+      - name: iOS build setup
+        run: |
+          xcodebuild build-for-testing -scheme uitests -workspace uitests.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 11' #-allowProvisioningUpdates
+      
+      - name: testing ... iPhone 11
+        run: xcodebuild test-without-building -scheme uitests -workspace uitests.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 11'
+        
+#      - name: testing ... iPhone 12 Pro Max
+#        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 12 Pro Max'
+
+#      - name: testing ... iPad Air
+#        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'platform=iOS Simulator,name=iPad Air (3rd generation)'
