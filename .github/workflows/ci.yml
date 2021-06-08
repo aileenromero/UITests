@@ -31,10 +31,10 @@ jobs:
 #        run:  xcodebuild test -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'platform=iOS Simulator,name=iPad Air (3rd generation),OS=13.1'
       - name: iOS build setup
         run: |
-          xcodebuild build-for-testing -scheme uitests-test -workspace uitests.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 11' #-allowProvisioningUpdates
+          xcodebuild build-for-testing -scheme uitests -workspace uitests.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 11' #-allowProvisioningUpdates
       
       - name: testing ... iPhone 11
-        run: xcodebuild test-without-building -scheme uitests-test -workspace uitests.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 11'
+        run: xcodebuild test-without-building -scheme uitests -workspace uitests.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 11'
         
 #      - name: testing ... iPhone 12 Pro Max
 #        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 12 Pro Max'
