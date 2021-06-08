@@ -11,6 +11,7 @@ target 'App' do
 
   # Pods for App
   def shared_pods
+    pod 'Alamofire'
     pod 'MaterialComponents/schemes/Typography'
     pod 'MaterialComponents/schemes/Color'
     pod 'SwiftLint'

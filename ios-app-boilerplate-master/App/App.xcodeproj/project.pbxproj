@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		756F9775266F6C1E00C62200 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F9774266F6C1E00C62200 /* Constants.swift */; };
+		756F977A266F6C2A00C62200 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F9779266F6C2A00C62200 /* Server.swift */; };
+		756F977F266F6DCA00C62200 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F977E266F6DCA00C62200 /* AuthRouter.swift */; };
 		827BC32D21E5558600A3E900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BC32C21E5558600A3E900 /* AppDelegate.swift */; };
 		827BC32F21E5558600A3E900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BC32E21E5558600A3E900 /* ViewController.swift */; };
 		827BC33221E5558600A3E900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827BC33021E5558600A3E900 /* Main.storyboard */; };
@@ -83,6 +86,9 @@
 		35B204CB129A2831CB7D0466 /* Pods_App_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D3EF35A40DC05328932187 /* Pods_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE4A271D8858C8E050351F6 /* Pods-AppTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTests.production.xcconfig"; path = "../Pods/Target Support Files/Pods-AppTests/Pods-AppTests.production.xcconfig"; sourceTree = "<group>"; };
+		756F9774266F6C1E00C62200 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		756F9779266F6C2A00C62200 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		756F977E266F6DCA00C62200 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
 		827BC32921E5558600A3E900 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		827BC32C21E5558600A3E900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		827BC32E21E5558600A3E900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +184,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		756F976F266F6BE500C62200 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				756F977E266F6DCA00C62200 /* AuthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		756F9770266F6C0000C62200 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				756F9774266F6C1E00C62200 /* Constants.swift */,
+				756F9779266F6C2A00C62200 /* Server.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		827BC32021E5558600A3E900 = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +228,7 @@
 			children = (
 				827BC32C21E5558600A3E900 /* AppDelegate.swift */,
 				827BC35D21E5559C00A3E900 /* View Controllers */,
+				756F9770266F6C0000C62200 /* Constants */,
 				F849A1F322004294006327E6 /* Views */,
 				827BC35F21E55BBE00A3E900 /* Models */,
 				827BC36021E55BCA00A3E900 /* Model Controllers */,
@@ -252,6 +276,7 @@
 		827BC36021E55BCA00A3E900 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				756F976F266F6BE500C62200 /* Router */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -634,11 +659,14 @@
 				F8FCC33321E5F48800F003B8 /* UIColor+Helpers.swift in Sources */,
 				A67CBD2C266DC74A00E54A3B /* Int+Helpers.swift in Sources */,
 				F8FCC32F21E5F2F300F003B8 /* Date+Helpers.swift in Sources */,
+				756F977A266F6C2A00C62200 /* Server.swift in Sources */,
+				756F9775266F6C1E00C62200 /* Constants.swift in Sources */,
 				F836319A22D707FE0093E246 /* UIFont+Helpers.swift in Sources */,
 				827BC33521E5558600A3E900 /* App.xcdatamodeld in Sources */,
 				F82601CA21E72A64009D2D7D /* DesignableTextField.swift in Sources */,
 				F8FCC33721E5F7C800F003B8 /* UIViewController+Helpers.swift in Sources */,
 				A67CBD3A266DCDB000E54A3B /* Console.swift in Sources */,
+				756F977F266F6DCA00C62200 /* AuthRouter.swift in Sources */,
 				F82601C421E7270A009D2D7D /* DesignableImageView.swift in Sources */,
 				827BC32F21E5558600A3E900 /* ViewController.swift in Sources */,
 				F836319822D707990093E246 /* Styles.swift in Sources */,

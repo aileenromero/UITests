@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Embassy (4.1.1)
+  - EnvoyAmbassador (4.0.5):
+    - Embassy (~> 4.0)
+  - KeychainSwift (19.0.0)
+  - Kingfisher (6.3.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/private/Application (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (124.2.0)
+  - MaterialComponents/schemes/Color (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+  - MaterialComponents/schemes/Typography (124.2.0):
+    - "MaterialComponents/schemes/Typography+BasicFontScheme"
+    - "MaterialComponents/schemes/Typography+Scheming"
+    - MaterialComponents/Typography
+  - "MaterialComponents/schemes/Typography+BasicFontScheme (124.2.0)"
+  - "MaterialComponents/schemes/Typography+Scheming (124.2.0)"
+  - MaterialComponents/Typography (124.2.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFTextAccessibility (2.0.1)
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Embassy (~> 4.1)
+  - EnvoyAmbassador (~> 4.0)
+  - KeychainSwift
+  - Kingfisher
+  - MaterialComponents/schemes/Color
+  - MaterialComponents/schemes/Typography
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Embassy
+    - EnvoyAmbassador
+    - KeychainSwift
+    - Kingfisher
+    - MaterialComponents
+    - MDFTextAccessibility
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Embassy: eb36dc783ea20b792426461bbaff8c3f256e0331
+  EnvoyAmbassador: 21cef10e70d003801c68ba5281948684a4e25486
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: fbe6eef612af1ff38a4f9f3ef4fc01b365f61220
+
+COCOAPODS: 1.10.1
