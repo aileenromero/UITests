@@ -1,0 +1,54 @@
+PODS:
+  - Embassy (4.1.1)
+  - EnvoyAmbassador (4.0.5):
+    - Embassy (~> 4.0)
+  - Kingfisher (6.3.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/private/Application (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (124.2.0)
+  - MaterialComponents/schemes/Color (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+  - MaterialComponents/schemes/Typography (124.2.0):
+    - "MaterialComponents/schemes/Typography+BasicFontScheme"
+    - "MaterialComponents/schemes/Typography+Scheming"
+    - MaterialComponents/Typography
+  - "MaterialComponents/schemes/Typography+BasicFontScheme (124.2.0)"
+  - "MaterialComponents/schemes/Typography+Scheming (124.2.0)"
+  - MaterialComponents/Typography (124.2.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFTextAccessibility (2.0.1)
+  - SwiftLint (0.40.3)
+
+DEPENDENCIES:
+  - Embassy (~> 4.1)
+  - EnvoyAmbassador (~> 4.0)
+  - Kingfisher
+  - MaterialComponents/schemes/Color
+  - MaterialComponents/schemes/Typography
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Embassy
+    - EnvoyAmbassador
+    - Kingfisher
+    - MaterialComponents
+    - MDFTextAccessibility
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Embassy: eb36dc783ea20b792426461bbaff8c3f256e0331
+  EnvoyAmbassador: 21cef10e70d003801c68ba5281948684a4e25486
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
+  SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
+
+PODFILE CHECKSUM: 2849f9e724aa519a21161c13fde35469f1ca79f2
+
+COCOAPODS: 1.9.1
