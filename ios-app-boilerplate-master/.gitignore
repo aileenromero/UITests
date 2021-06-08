@@ -1,5 +1,0 @@
-# We only include lines that will affect our project.
-# https://github.com/github/gitignore/blob/master/Swift.gitignore
-
-## Various settings
-xcuserdata/

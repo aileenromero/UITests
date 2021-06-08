@@ -1,6 +1,0 @@
-source "https://rubygems.org"
-
-gem "cocoapods"
-gem "slather"
-gem "trainer"
-gem "xcpretty"
